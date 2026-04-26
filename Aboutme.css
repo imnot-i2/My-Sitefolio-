@@ -1,12 +1,12 @@
 
 body {
-    min-height: 270vh; /* altura minima da página */
+    min-height: 270vh; 
     color: whitesmoke;
     background: linear-gradient(to bottom, black 35%, rgba(255, 255, 255, 0.753)); 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Animação de rotação para a imagem */
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -16,12 +16,12 @@ body {
     }
 }
 
-/* Estilização para a barra de navegação */
+
 nav {
     padding: 16px 0;
 }
 
-/* Estilização para a lista de navegação */
+
 .gr{
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.103), rgba(0, 0, 0, 0.438));
 }
@@ -40,7 +40,7 @@ ul {
     box-sizing: border-box;
 }
 
-/* Estilização para os itens da barra de navegação */
+
 ol {
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@ ol {
     box-sizing: border-box;
 }
 
-/* Estilização para os itens da barra de navegação */
+
 li {
     background: rgba(255, 255, 255, 0.12);
     padding: 16px 38px;
@@ -65,7 +65,7 @@ li {
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
-/* Efeito de hover para os itens da barra de navegação */
+
 li:hover {
     transform: translateY(-3px);
     background: rgba(255, 255, 255, 0.2);
@@ -77,7 +77,7 @@ a {
     font-size: 1.3em;
     font-weight: 600;
 }
-/*estrelinha do logo*/
+
 img {
     width: 450px;
     height: 450px;
@@ -86,7 +86,7 @@ img {
     cursor: pointer;
 }
 
-/* Imagem dos projetos */
+
 img.ins {
     width: 350px;
     height: 350px;
@@ -98,45 +98,45 @@ img.ins {
     object-fit: cover;
 }
 
-/* Aplica a animação de rotação à imagem com a classe "page-load-spin" ou "click-spin" , vulgo tecnologia alienigena q eu ainda n entendo bem*/
+
 img.page-load-spin,
 img.click-spin {
     animation: spin 0.8s ease-out 1;
 }
 
 
-/* centralização do texto */
+
 .center{ 
     text-align: center;
 }
 
-/* Quadrado centralizado para texto */
+
 .text-box {
-    max-width: 800px; /* limite lateral máximo */
-    width: 90%; /* responsivo */
-    margin: 40px auto; /* centralizado horizontalmente */
+    max-width: 800px; 
+    width: 90%;
+    margin: 40px auto; 
     padding: 30px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.185), rgba(0, 0, 0, 0.267));
     border-radius: 20px;
     text-align: center;
 }
 
-/* alinhamento do texto para direita */
+
 .right{
     text-align: right;
 }
 
-/* alinhamento do texto para esquerda */
+
 .left{
     text-align: left;
 }
 
-/* estilização dos títulos */
+
 h1 {
     font-size: 4em;
 }
 
-/* espaçamento entre os títulos e os projetos */
+
 h2 {
     font-size: 2.0em;
     margin-top: 60px;
@@ -145,7 +145,7 @@ h2 {
 h3 {
     font-size: 2.0em;
 }
-/* espacamento no geral */           
+          
 .mspaces {
     margin-bottom: 200px;
 }
@@ -162,13 +162,11 @@ a1 {
     padding: 100px 40px;
     background: linear-gradient(to right, rgba(255,255,255,0.08), rgba(255,255,255,0.18));
     border-radius: 50px;
-    /* === LARGURA === */
-    /* max-width: 60% -> muda esse valor para aumentar/diminuir a largura (em %) */
+    
     max-width: 57%;
-    /* === ALTURA === */
-    /* min-height: 200px -> muda esse valor para aumentar/diminuir a altura (em px) */
+    
     min-height: 300px;
-    /* margin: 0 auto 50px 0 -> o "0" no final é a margem esquerda, o "auto" é a margem direita */
+    
 }
 
 b1 {
@@ -179,13 +177,11 @@ b1 {
     padding: 30px 40px;
     background: linear-gradient(to right, rgba(255,255,255,0.08), rgba(255,255,255,0.18));
     border-radius: 50px;
-    /* === LARGURA === */
-    /* max-width: 60% -> muda esse valor para aumentar/diminuir a largura (em %) */
+   
     max-width: 57%;
-    /* === ALTURA === */
-    /* min-height: 200px -> muda esse valor para aumentar/diminuir a altura (em px) */
+    
     min-height: 300px;
-    /* margin: 0 auto 50px 0 -> o "0" no final é a margem esquerda, o "auto" é a margem direita */
+    
     margin: 0 auto 50px 0;
 }
 
@@ -197,17 +193,14 @@ b2 {
     padding: 60px 40px;
     background: linear-gradient(to right, rgba(255,255,255,0.08), rgba(255,255,255,0.18));
     border-radius: 50px;
-    /* === LARGURA === */
-    /* max-width: 60% -> muda esse valor para aumentar/diminuir a largura (em %) */
+    
     max-width: 57%;
-    /* === ALTURA === */
-    /* min-height: 200px -> muda esse valor para aumentar/diminuir a altura (em px) */
-    min-height: 300px;
-    /* margin: 0 0 50px auto -> o "auto" no final é a margem direita, o "0" é a margem esquerda */
+   
+    
     margin: 0 0 50px auto;
 }
 
-/* Container interno do projeto (imagem + texto) */
+
 .project-content {
     display: flex;
     align-items: stretch;
@@ -216,7 +209,7 @@ b2 {
     height: 100%;
 }
 
-/* Texto do projeto (título + descrição) */
+
 .project-text {
     display: flex;
     flex-direction: column;
@@ -224,7 +217,7 @@ b2 {
     justify-content: center;
 }
 
-/* Alinhamento centralizado do texto */
+
 b1 .project-text {
     text-align: center;
     padding: 0 30px;
@@ -235,7 +228,7 @@ b2 .project-text {
     padding: 0 30px;
 }
 
-/* Título no topo do quadrado */
+
 .project-text h3 {
     margin: 0 0 20px 0;
     padding-top: 10px;
@@ -243,7 +236,7 @@ b2 .project-text {
     font-size: 1.4em;
 }
 
-/* Descrição centralizada no espaço disponível */
+
 .project-text p {
     margin: 0;
     align-self: center;
@@ -251,7 +244,7 @@ b2 .project-text {
     font-size: 1.1em;
 }
 
-/* Imagem no extremo oposto do texto */
+
 b1 .ins {
     flex-shrink: 0;
     align-self: center;
@@ -263,5 +256,5 @@ b2 .ins {
 }
 
 .size {
-   font-size: 1.7em; /* ajuste a altura conforme necessário */
+   font-size: 1.7em; 
 }
